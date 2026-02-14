@@ -5,7 +5,6 @@ public class MergeSort {
         int[] arr = {5, 2, 4, 1, 3};
         int n = arr.length;
 
-        // Bottom-up Merge Sort (no recursion)
         for (int size = 1; size < n; size = size * 2) {
 
             for (int left = 0; left < n - size; left += 2 * size) {
