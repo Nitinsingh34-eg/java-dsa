@@ -5,11 +5,7 @@ public class MergeSort {
         int[] arr = {5, 2, 4, 1, 3};
         int n = arr.length;
 
-<<<<<<< HEAD
-       
-=======
->>>>>>> 6185b80705f3537fe56f20b60a6f8c2a092713d3
-        for (int size = 1; size < n; size = size * 2) {
+         for (int size = 1; size < n; size = size * 2) {
 
             for (int left = 0; left < n - size; left += 2 * size) {
 
